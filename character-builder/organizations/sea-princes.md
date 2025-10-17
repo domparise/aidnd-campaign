@@ -30,6 +30,12 @@ The Sea Princes operate under a dual-layer command structure consisting of the H
 * Counter-espionage
 * Strategic planning
 
+### Spymaster's Operations
+#### Dark Operations
+* Oversees Elara Darksong's necromantic experiments; reviving an army of dead sailors offers limitless potential
+* Coordinates with cults in port cities
+* Manages supernatural intelligence gathering
+
 ### Fleet Operations
 #### Blackheart Gang
 * Territory: Northern waters
