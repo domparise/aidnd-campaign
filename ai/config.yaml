@@ -1,0 +1,45 @@
+# Model Configuration
+default_model: phind-405B
+fallback_model: phind-410B-instruct
+
+# Content Generation Settings
+max_context_length: 4096
+temperature: 0.7
+max_tokens: 512
+
+# Campaign-Specific Settings
+campaign_style: "Ghosts of Saltmarsh"
+tone: "goofy and fun"
+setting: "high fantasy naval adventure"
+
+# Content Categories
+content_types:
+  - characters
+  - locations
+  - organizations
+  - quests
+  - worldbuilding
+
+# Generation Rules
+rules:
+  characters:
+    required_fields:
+      - name
+      - role
+      - background
+      - personality
+    constraints:
+      - "Must fit campaign setting"
+      - "Maintain consistent power level"
+      - "Align with established lore"
+  
+  locations:
+    required_fields:
+      - name
+      - description
+      - significance
+      - connections
+    constraints:
+      - "Match geographical context"
+      - "Consider naval accessibility"
+      - "Maintain setting consistency"
