@@ -18,6 +18,7 @@ The repository is organized into several key components:
 - **templates/**: Character and world-building templates
 - **references/**: UUID tracking and reference system
 - **campaign/**: World-building and setting documentation
+- **ai/**: Documentation to enhance repository for optimal AI interaction 
 
 ## Getting Started
 1. Clone the repository
