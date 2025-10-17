@@ -1,34 +1,37 @@
 # Reference System
-Documentation for the UUID-based reference system used to track campaign elements.
+Documentation for the campaign reference system.
 
-## UUID Structure
-- **Character UUIDs**
-  * Unique per character
-  * Used in development logs
-  * Referenced in interactions
+## Thinking Level References
+- **Full Thinking**: THI-FUL
+- **Reduced Thinking**: THI-RED
+- **Minimal Thinking**: THI-MIN
 
-- **Thread UUIDs**
-  * One per thread
-  * Tracks continuity
-  * Links related content
+## Output Format References
+- **Rich Text**: OUT-RIC
+- **Markdown**: OUT-MRK
+- **Diagram**: OUT-DGM
+- **Image**: OUT-IMG
 
-- **Interaction UUIDs**
-  * Generated per session
-  * Documents key developments
-  * References character UUIDs
+## Development Stage References
+- **Concept**: DEV-CON-XXX
+- **Outline**: DEV-OUT-XXX
+- **Draft**: DEV-DRF-XXX
+- **Final**: DEV-FIN-XXX
 
-## Implementation
-1. **UUID Generation**
-- Use provided UUID generator
-- Store in references directory
-- Document in relevant files
+## Implementation Guide
+1. **Reference Format**
+- Use uppercase letters for categories
+- Separate elements with hyphens
+- Include zero-padded numbers for indexed items
+- Maintain consistent three-letter abbreviations
 
-2. **Reference Format**
-- Use `ref:[UUID]` syntax
-- Include in development logs
-- Reference in character files
+2. **Usage Examples**
+- Character Development: ELE-CHA-001
+- World Building: ELE-WRL-001
+- Plot Element: ELE-PLT-001
 
-3. **Tracking System**
-- Log all interactions
+3. **Best Practices**
+- Update references when elements change
 - Maintain reference consistency
-- Update documentation regularly
+- Document new reference assignments
+- Use zero-padding for all numbers
